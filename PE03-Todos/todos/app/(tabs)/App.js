@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { View, ScrollView, StyleSheet } from 'react-native';
 import Input from './Input';
 import Heading from './Heading';
+import SubmitButton from './Button';
 
 class App extends Component {
     constructor(){
@@ -18,6 +19,27 @@ class App extends Component {
         this.setState({inputValue});
     }
 
+    addTodo(){
+        const { inputValue, todos } = this.state;
+        if (inputValue.trim()) {
+            const todoList = {
+                title: inputValue,
+                todoIndex: todos.length + 1, 
+                complete: false, 
+            };
+            this.setState(
+                {
+                    todos: [...todos, todoList],
+                    inputValue: '',
+                },
+                () => {
+                    console.log('State: ', this.state);
+                }
+            );
+        }
+    }
+
+
     render() {
         const {inputValue} = this.state;
         return(
@@ -27,6 +49,9 @@ class App extends Component {
                     <Input 
                         inputValue={inputValue}
                         inputChange={text => this.inputChange(text)}
+                    />
+                    <SubmitButton 
+                        onPress={() => this.addTodo()}
                     />
                 </ScrollView>
             </View>
