@@ -4,4 +4,5 @@
 
 Module 1: PE01 - Hello World  
 Module 2: PE02 - Core Components  
-Module 3: PE03 - Todos
+Module 3: PE03 - Todos  
+Module 4: PE04 - Profile Card
