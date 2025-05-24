@@ -7,4 +7,4 @@ The input in the application is the hardcoded information: the name (Sumit K C),
 The process involves building an application with Native react. The application is developed using five React Native components: 1 View, 3 Text and a StyleSheet. The view component is the container for the screen. The three text components holds the information that needs to be displayed. The StyleSheet is used for describing the style for the view and text components. 
 
 # Output:
-The output is a mobile screen with a yellow background and the input information (name, degree and school) as three lines of text at the center of the screen. 
+The output is a mobile screen with a yellow background and the input information (name, degree and school) in three lines of text at the center of the screen. 
