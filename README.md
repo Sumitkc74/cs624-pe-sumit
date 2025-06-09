@@ -6,8 +6,7 @@ Module 1: PE01 - Hello World
 Module 2: PE02 - Core Components  
 Module 3: PE03 - Todos  
 Module 4: PE03 (Continued)  
-Module 5: PE04 ProfileCard  
+Module 5: PE04 - ProfileCard  
 Module 6: PE04 (Continued) 
-Module 7: CitiesWithCountriesCurrency  
-Module 3: PE03 - Todos  
-Module 4: PE04 - Profile Card
+Module 7: PE05 - CitiesWithCountriesCurrency  
+Module 8: PE06 - CitiesWithCountriesCurrencyStackNav
